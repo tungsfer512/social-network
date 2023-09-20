@@ -1,0 +1,11 @@
+{
+    "id": "codebox",
+    "name": "Codebox",
+    "description": "Allows the use of HTML snippets on your sidebar.",
+    "keywords": ["codebox"],
+    "version": "1.0.2",
+    "humhub": {
+    "minVersion": "1.5"
+    },
+    "screenshots": ["resources/Screenshot_1.png", "resources/Screenshot_2.png"]
+}

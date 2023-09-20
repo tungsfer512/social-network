@@ -1,0 +1,40 @@
+version: '3.8'
+
+networks:
+  caodangytethaibinh:
+    driver: bridge
+
+services:
+  mysql_db:
+    image: mysql
+    container_name: mysql_db
+    cap_add:
+      - SYS_NICE
+    restart: always
+    ports:
+      - '3317:3306'
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: caodangytethaibinh_db
+      MYSQL_USER: caodangytethaibinh_user
+      MYSQL_PASSWORD: caodangytethaibinh_password
+    # volumes:
+    #   - ./db/mysql_data:/var/lib/mysql
+    networks:
+      caodangytethaibinh: null
+  caodangytethaibinh: 
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: caodangytethaibinh
+    restart: unless-stopped
+    ports:
+      - '8017:80'
+    volumes:
+      - .:/var/www/html
+    networks:
+      caodangytethaibinh: null
+
+volumes:
+  mysql_db:
+    null

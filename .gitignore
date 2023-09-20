@@ -1,5 +1,7 @@
 assets/*
 !assets/.gitignore
+!assets/siteicons
+!assets/logo
 
 protected/runtime/*
 !protected/runtime/.gitignore

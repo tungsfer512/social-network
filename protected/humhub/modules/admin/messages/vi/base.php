@@ -58,7 +58,7 @@ return array (
   'Set as default' => 'Đặt làm mặc định',
   'Settings' => 'Cài đặt',
   'Sign up' => 'Đăng ký',
-  'Spaces' => 'Các diễn đàn',
+  'Spaces' => 'Các nhóm',
   'Statistics' => 'Thống kê',
   'The cron job for the background jobs (queue) does not seem to work properly.' => 'Cron job cho tác vụ ngầm (queue) có vẻ không hoạt động.',
   'The cron job for the regular tasks (cron) does not seem to work properly.' => 'Cron job cho các tasks thông thường (cron) có vẻ không hoạt động.',

@@ -30,7 +30,7 @@ return [
     'Default pagination size (Entries per page)' => 'Kích thước trang mặc định (Số mục trên một trang)',
     'Default stream content order' => 'Thứ tự nội dung mặc định trên Dòng thời gian',
     'Delete' => 'Xóa',
-    'Dropdown space order' => 'Thứ thự sắp xếp Diễn đàn trong Danh mục',
+    'Dropdown space order' => 'Thứ thự sắp xếp Nhóm trong Danh mục',
     'E-Mail' => 'E-Mail',
     'E-Mail sender address' => 'Địa chỉ E-Mail người gửi',
     'E-Mail sender name' => 'Tên người gửi Email',

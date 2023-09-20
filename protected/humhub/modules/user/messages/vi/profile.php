@@ -77,7 +77,7 @@ return [
     'Show date/time picker' => 'Hiển thị hộp lựa chọn ngày/giờ',
     'Social bookmarks' => 'Đánh dấu trang MXH',
     'Sort order' => 'Thứ tự sắp xếp',
-    'Spaces' => 'Các diễn đàn',
+    'Spaces' => 'Các nhóm',
     'State' => 'Bang',
     'Stream' => 'Dòng thời gian',
     'Street' => 'Địa chỉ',

@@ -35,7 +35,7 @@ class InformationController extends Controller
     /**
      * @inheritdoc
      */
-    public $defaultAction = 'about';
+    public $defaultAction = 'prerequisites';
 
     public function init()
     {

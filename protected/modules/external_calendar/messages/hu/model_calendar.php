@@ -1,0 +1,23 @@
+<?php
+return array (
+  'Automatic synchronization' => '',
+  'Color' => 'Szín',
+  'Daily' => 'Naponta',
+  'Event Mode' => '',
+  'Hourly' => 'Óránként',
+  'ID' => 'Azonosító (ID)',
+  'No auto synchronization' => '',
+  'Only sync events from current month' => '',
+  'Only synchronize events from current month' => '',
+  'Original Calendar Name' => '',
+  'Original Calendar Scale' => '',
+  'Public' => 'Nyilvános',
+  'Synchronization Mode' => '',
+  'Synchronization interval' => '',
+  'Synchronize all events' => '',
+  'Timezone' => '',
+  'Title' => 'Cím',
+  'Url' => 'Webcím (URL)',
+  'e.g. https://calendar.google.com/calendar/ical/...' => '',
+  'iCal Version' => '',
+);

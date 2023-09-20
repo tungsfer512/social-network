@@ -107,25 +107,32 @@ class Events extends BaseObject
         }
 
         if (version_compare($latestVersion, Yii::$app->version, '>')) {
-            $updateUrl = 'https://docs.humhub.org/docs/admin/updating/';
-            if (Yii::$app->hasModule('updater')) {
-                $updateUrl = Url::to(['/updater/update']);
-            }
+            // $updateUrl = 'https://docs.humhub.org/docs/admin/updating/';
+            // if (Yii::$app->hasModule('updater')) {
+            //     $updateUrl = Url::to(['/updater/update']);
+            // }
 
+            // $info = [
+            //     'class' => 'directory-filters-footer-warning',
+            //     'icon' => 'info-circle',
+            //     'info' => Yii::t('MarketplaceModule.base', 'A new update is available (HumHub %version%)!', ['%version%' => $latestVersion]),
+            //     'link' => Button::asLink(Yii::t('MarketplaceModule.base', 'Learn more'), $updateUrl)
+            //         ->cssClass('btn btn-primary'),
+            // ];
             $info = [
-                'class' => 'directory-filters-footer-warning',
-                'icon' => 'info-circle',
-                'info' => Yii::t('MarketplaceModule.base', 'A new update is available (HumHub %version%)!', ['%version%' => $latestVersion]),
-                'link' => Button::asLink(Yii::t('MarketplaceModule.base', 'Learn more'), $updateUrl)
-                    ->cssClass('btn btn-primary'),
+                'class' => 'directory-filters-footer-info',
+                'icon' => 'check-circle',
+                'info' => Yii::t('MarketplaceModule.base', 'Your HumHub installation is up to date!'),
+                // 'link' => Button::asLink('https://www.humhub.com', 'https://www.humhub.com')
+                //     ->cssClass('btn btn-info'),
             ];
         } else {
             $info = [
                 'class' => 'directory-filters-footer-info',
                 'icon' => 'check-circle',
                 'info' => Yii::t('MarketplaceModule.base', 'Your HumHub installation is up to date!'),
-                'link' => Button::asLink('https://www.humhub.com', 'https://www.humhub.com')
-                    ->cssClass('btn btn-info'),
+                // 'link' => Button::asLink('https://www.humhub.com', 'https://www.humhub.com')
+                //     ->cssClass('btn btn-info'),
             ];
         }
 
@@ -165,18 +172,18 @@ class Events extends BaseObject
             ]);
         }
 
-        if (!$marketplaceModule->isFilteredBySingleTag('installed')) {
-            $onlineModules = $marketplaceModule->onlineModuleManager->getNotInstalledModules();
-            if ($onlineModulesCount = count($onlineModules)) {
-                $modulesWidget->addGroup('notInstalled', [
-                    'title' => Yii::t('AdminModule.modules', 'Not Installed'),
-                    'modules' => Yii::$app->moduleManager->filterModules($onlineModules),
-                    'count' => $onlineModulesCount,
-                    'view' => '@humhub/modules/marketplace/widgets/views/moduleInstallCard',
-                    'sortOrder' => 200,
-                ]);
-            }
-        }
+        // if (!$marketplaceModule->isFilteredBySingleTag('installed')) {
+        //     $onlineModules = $marketplaceModule->onlineModuleManager->getNotInstalledModules();
+        //     if ($onlineModulesCount = count($onlineModules)) {
+        //         $modulesWidget->addGroup('notInstalled', [
+        //             'title' => Yii::t('AdminModule.modules', 'Not Installed'),
+        //             'modules' => Yii::$app->moduleManager->filterModules($onlineModules),
+        //             'count' => $onlineModulesCount,
+        //             'view' => '@humhub/modules/marketplace/widgets/views/moduleInstallCard',
+        //             'sortOrder' => 200,
+        //         ]);
+        //     }
+        // }
     }
 
     public static function onAdminModuleManagerAfterFilterModules(ModulesEvent $event)

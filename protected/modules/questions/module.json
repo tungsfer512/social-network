@@ -1,0 +1,23 @@
+{
+    "id": "questions",
+    "name": "Q&A",
+    "description": "Elevate your knowledge sharing experience by enabling users to ask questions and upvote the most helpful answers.",
+    "keywords": ["Q&A", "questions answers"],
+    "version": "1.0.3",
+    "humhub": {
+        "minVersion": "1.14"
+    },
+    "homepage": "https://github.com/humhub/questions",
+    "authors": [
+        {
+            "name": "Lucas Bartholemy"
+        }
+    ],
+    "screenshots": [
+        "resources/screen1.PNG",
+        "resources/screen2.PNG",
+        "resources/screen3.PNG",
+        "resources/screen4.PNG",
+        "resources/screen5.PNG"
+    ]
+}

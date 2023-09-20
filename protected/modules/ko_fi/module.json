@@ -1,0 +1,19 @@
+{
+    "id": "ko_fi",
+    "version": "1.0.8",
+    "name": "Ko-fi",
+    "description": "Add your Ko-fi button to your HumHub installation.",
+    "humhub": {
+        "minVersion": "1.5"
+    },
+    "keywords": ["ko-fi", "module"],
+    "screenshots": ["resources/Screenshot_1.png", "resources/Screenshot_2.png"],
+    "authors": [
+        {
+            "name": "Green Meteor",
+            "email": "realgreenmeteor@gmail.com",
+            "homepage": "https://github.com/GreenMeteor",
+            "role": "Owner"
+        }
+    ]
+}

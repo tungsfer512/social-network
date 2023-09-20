@@ -1,0 +1,12 @@
+{
+    "id": "auth-linkedin",
+    "name": "LinkedIn Sign-In",
+    "description": "Integrating LinkedIn Sign-In (OAuth 2.0).",
+    "keywords": [
+    ],
+    "version": "1.0.1",
+    "homepage": "https://github.com/humhub/auth-linkedin",
+    "humhub": {
+        "minVersion": "1.6"
+    }
+}

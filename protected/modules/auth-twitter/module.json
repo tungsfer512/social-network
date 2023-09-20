@@ -1,0 +1,12 @@
+{
+    "id": "auth-twitter",
+    "name": "Twitter Sign-In",
+    "description": "Integrating Twitter Sign-In (OAuth 2.0).",
+    "keywords": [
+    ],
+    "version": "1.0.0",
+    "homepage": "https://github.com/humhub-contrib/auth-twitter",
+    "humhub": {
+        "minVersion": "1.9"
+    }
+}

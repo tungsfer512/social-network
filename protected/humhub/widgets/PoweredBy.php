@@ -42,15 +42,15 @@ class PoweredBy extends Widget
         }
 
         if ($this->textOnly) {
-            return Yii::t('base', 'Powered by {name}', ['name' => 'HumHub (https://humhub.org)']);
+            return Yii::t('base', 'ĐƯợc phát triển bởi {name}', ['name' => 'Công ty Cổ phần Công nghệ A.I-Soft (https://aisoft.com.vn)']);
         }
 
         if (!isset($this->linkOptions['target'])) {
             $this->linkOptions['target'] = '_blank';
         }
 
-        return Yii::t('base', 'Powered by {name}', [
-            'name' => Html::a('HumHub', 'https://humhub.org', $this->linkOptions)
+        return Yii::t('base', 'ĐƯợc phát triển bởi {name}', [
+            'name' => Html::a('Công ty Cổ phần Công nghệ A.I-Soft', 'https://aisoft.com.vn', $this->linkOptions)
         ]);
     }
 

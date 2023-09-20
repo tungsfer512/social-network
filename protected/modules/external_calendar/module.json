@@ -1,0 +1,27 @@
+{
+  "id": "external_calendar",
+  "name": "External Calendar",
+  "description": "Extends the Calendar-Module to show external Calendars with iCal",
+  "keywords": [
+    "calendar",
+    "external calendar"
+  ],
+  "version": "1.4.1",
+  "humhub": {
+    "minVersion": "1.14"
+  },
+  "screenshots": [
+    "assets/screen1.jpg",
+    "assets/screen2.jpg",
+    "assets/screen3.jpg"
+  ],
+  "homepage": "https://github.com/humhub-contrib/external_calendar",
+  "authors": [
+    {
+      "name": "David Born"
+    },
+    {
+      "name": "Julian Harrer"
+    }
+  ]
+}

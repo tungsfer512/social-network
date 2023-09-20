@@ -1,0 +1,46 @@
+.panel {
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  border-radius: 0;
+}
+
+.panel-profile {
+  .panel-profile-header {
+    // Hide default gray image
+    img.img-profile-header-background {
+      min-height: 100px;
+
+      &[src$="/img/default_banner.jpg"] {
+        width: 0;
+      }
+    }
+
+    div.img-profile-header-background {
+      border-radius: 50% !important;
+    }
+
+    .img-profile-data {
+      background: fade(black, 35%);
+
+      &, h1, h2 {
+        color: @text-color-contrast;
+      }
+
+      h1 {
+        font-weight: 600 !important;
+        font-size: 150% !important;
+      }
+
+      h2.space {
+        font-weight: 400;
+      }
+    }
+
+    // If no image
+    img.img-profile-header-background[src$="/img/default_banner.jpg"] + .img-profile-data {
+      background: @primary;
+    }
+  }
+}

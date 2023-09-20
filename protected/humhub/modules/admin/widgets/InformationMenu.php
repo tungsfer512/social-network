@@ -24,12 +24,12 @@ class InformationMenu extends TabMenu
      */
     public function init()
     {
-        $this->addEntry(new MenuLink([
-            'label' => Yii::t('AdminModule.information', 'About HumHub'),
-            'url' => ['/admin/information/about'],
-            'sortOrder' => 100,
-            'isActive' => MenuLink::isActiveState('admin', 'information', 'about')
-        ]));
+        // $this->addEntry(new MenuLink([
+        //     'label' => Yii::t('AdminModule.information', 'About HumHub'),
+        //     'url' => ['/admin/information/about'],
+        //     'sortOrder' => 100,
+        //     'isActive' => MenuLink::isActiveState('admin', 'information', 'about')
+        // ]));
 
         $this->addEntry(new MenuLink([
             'label' => Yii::t('AdminModule.information', 'Prerequisites'),
