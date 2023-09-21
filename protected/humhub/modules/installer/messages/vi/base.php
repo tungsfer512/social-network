@@ -15,7 +15,7 @@ return [
     '<strong>Pretty URLs</strong> configuration' => 'Cấu hình <strong>Pretty URL</strong>',
     '<strong>Scheduled jobs</strong>' => '<strong>Công việc định kỳ</strong>',
     '<strong>System</strong> Check' => '<strong>Kiểm tra</strong> hệ thống',
-    '<strong>Welcome</strong> to HumHub<br>Your Social Network Toolbox' => '<strong>Chào mừng</strong> đến với MẠNG XÃ HỘI CAO ĐẲNG Y TẾ THÁI BÌNH',
+    '<strong>Welcome</strong> to HumHub<br>Your Social Network Toolbox' => '<strong>Chào mừng</strong> đến với hệ thống mạng xã hội',
     'Add following the lines to the crontab:' => 'Thêm các dòng sau vào crontab:',
     'Allow access for non-registered users to public content (guest access)' => 'Cho phép truy cập cho người dùng chưa đăng ký đến nội dung công khai (truy cập khách)',
     'Allow friendships between members' => 'Cho phép kết bạn giữa các thành viên',

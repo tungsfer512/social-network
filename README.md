@@ -1,30 +1,126 @@
-HumHub - Putting People and Pieces together
-===========================
+# Mạng xã hội
 
-[![Test Status](https://github.com/humhub/humhub/workflows/PHP%20Codeception%20Tests/badge.svg)](https://github.com/humhub/humhub/actions)
-[![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](http://www.yiiframework.com/)
-[![CLA assistant](https://cla-assistant.io/readme/badge/humhub/humhub)](https://cla-assistant.io/humhub/humhub)
+## 1. Giới thiệu
 
-#### **HumHub is an intuitive to use and modular designed open-source software**, used primarily as social network, knowledge database, intranet or information and communication platform.
+- Mạng xã hội tương tự Facebook, được xây dựng bằng Yii2(PHP)
+- Chức năng chính:
 
-**The software is written in PHP** and is best described by dividing into 4 main parts: **User, Spaces, Content and Modules.**
+  - Đăng nhập, đăng ký, quên mật khẩu
+  - Có thế tích hợp nhiều loại đăng nhập khác nhau: Facebook, Google, Keycloak, ...
+  - Có nhiều Extension để mở rộng chức năng: Tùy chỉnh theme, tạo trang tùy chỉnh, ...
+  - Phân quyền theo nhóm, tạo nhóm riêng tư, công khai, ...
+  - Tạo bài viết, tạo bình luận, tạo trang, tạo sự kiện, ...
+  - ...
+- Phương thức triển khai:
 
-- **User:** All users have their own customisable profile (including name, profile picture, cover photo and personal information) and can follow and interact with each other. If wished and enabled, users can create own content, comment posts and join Spaces. Profile fields, permissions and all settings can be defined individually by the network operator (administrator).
+  - Sử dụng Docker
+  - Triển khai trên máy chủ vật lý
 
-- **Spaces:** Rooms or groups for any projects, departments, events or other needs. Network operators can create as many Spaces as needed and automatically map users into the desired Spaces. HumHub comes with an advanced permission and notification system (including email summaries).
+## 2. Clone project
 
-- **Content:** Users can create content of all kinds (posts, wiki pages, photo/video, schedule appointments, create events or tasks) depending on their permission and share it with other members in their Space. There is a multi-level comment function, versatile collaboration options and also features to report inappropriate posts and content. All Content, Spaces and Members can be easily found through various and individually definable filter and search functions, Content can be edited, deleted and archived.
+```bash
+git clone ...
+```
 
-- **Modules:** The main software is designed in a modular way and can be extended by approximately 80 modules. These can easily be added to by installation and activation. This gives operators the possibility to set up and configure the network according to their needs and individual wishes. Among the modules are Advanced LDAP, RESTful API, Mass User Import, Calendar, Wiki, OnlyOffice, JWT SSO, Legal Tools, Translation Manager, Custom Themes and Custom Pages, Tasks, Gallery, News, Polls and Mail for Direct Messages.
+## 3. Triển khai
 
-#### With HumHub, we help people around the world to connect, stay informed, display and share content of various kinds, exchange files and communicate and collaborate with each other.
+> **_NOTE:_** Nếu không phải lần chạy đầu tiên và muốn thay đổi database, cần xóa file `protected/config/dynamic.php` để xóa cấu hình cũ
 
-The software is responsive designed and works great on different devices, including smartphones and tablets. **HumHub is available in over 30 languages and is used in over 4,500 organizations worldwide.**
+### 3.1. Triển khai với Docker (Recommended)
 
-More information about HumHub can be found here:
+#### 3.1.1. Yêu cầu
 
--	[Homepage & Demo](http://www.humhub.org/)
--	[Documentation & Class Reference](http://docs.humhub.org/)
--	[Community](http://community.humhub.com/)
--	[Licence](https://www.humhub.com/licences)
+- [Docker](https://docs.docker.com/get-docker/)
+- [Docker compose](https://docs.docker.com/compose/install/)
 
+#### 3.1.2. Cài đặt
+
+##### 3.1.2.1. Build
+
+```bash
+docker compose build --no-cache
+```
+
+##### 3.1.2.2. Start
+
+- Khởi động dự án
+
+```bash
+docker compose up -d
+```
+
+- Cấp quyền 777 cho thư mục data
+
+```bash
+sudo chmod -R 777 ./db
+sudo chmod 777 ./db/*
+sudo chmod -R 777 ./db/mysql_data/
+sudo chmod 777 ./db/mysql_data/*
+```
+
+- Sau khi thực thi câu lệnh trên, cần đợi mysql container khởi động xong. Lúc này dự án vẫn chưa chạy được. Cần thực thi lệnh sau để khởi động dự án:
+
+```bash
+docker exec -it caodangytethaibinh composer install
+```
+
+##### 3.1.2.3. Stop
+
+```bash
+docker compose down
+```
+
+### 3.2. Triển khai trên máy chủ vật lý
+
+#### 3.2.1. Yêu cầu
+
+- PHP >= 7.4
+- MySQL >= 5.7
+- Composer
+- Các môi trường Linux cần thiết (được đề cập ở phần [3.2.2](###322-cai-dat) )
+
+#### 3.2.2. Cài đặt
+
+##### 3.2.2.1. Cài đặt các gói thư viện, môi trường cần thiết
+
+```bash
+sudo apt-get update -y
+sudo apt-get install -y apache2 php libapache2-mod-php unzip php-cli nano apache2-utils 
+sudo apt-get install -y curl wget php-imagick php-curl php-bz2 php-gd php-intl php-mbstring php-mysql php-zip php-apcu php-xml php-ldap php-dom php-simplexml
+sudo apt install -y apt-transport-https lsb-release ca-certificates curl dirmngr gnupg
+sudo apt-get update -y
+sudo apt-get upgrade -y
+```
+
+##### 3.2.2.2. Cài đặt Composer
+
+```bash
+sudo cd ~
+sudo curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php
+sudo HASH=`curl -sS https://composer.github.io/installer.sig`
+sudo php -r "if (hash_file('SHA384', '/tmp/composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
+sudo composer --version
+```
+
+##### 3.2.2.3. Cài đặt MySQL
+
+```bash
+sudo apt-get install -y mysql-server
+```
+
+##### 3.2.2.4. Start
+
+```bash
+sudo rm -rf /var/www/html/*
+sudo cp -r * /var/www/html/
+sudo chmod -R 777 /var/www/html
+sudo chmod 777 /var/www/html/*
+sudo service apache2 start
+sudo service apache2 restart
+```
+
+## 4. Cấu hình
+
+- Truy cập vào đường dẫn [http://localhost](http://localhost) để truy cập vào giao diện web của dự án
+- Cấu hình dự án theo các bước trên giao diện web
