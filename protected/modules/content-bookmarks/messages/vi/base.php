@@ -1,11 +1,11 @@
 <?php
 return array (
-  'Bookmarked' => '',
-  'Bookmarks' => '',
-  'Content successfully bookmarked. You can access it directly from your profile.' => '',
-  'Content successfully removed from bookmarks.' => '',
+  'Bookmarked' => 'Đã đánh dấu',
+  'Bookmarks' => 'Dấu trang',
+  'Content successfully bookmarked. You can access it directly from your profile.' => 'Đã đánh dấu nội dung thành công. Bạn có thể truy cập nó trực tiếp từ trang cá nhân của bạn.',
+  'Content successfully removed from bookmarks.' => 'Đã xóa nội dung khỏi dấu trang.',
   'Invalid content id given!' => 'ID nội dung không hợp lệ!',
-  'Remove from bookmarks' => '',
-  'Save as bookmark' => '',
-  'You cannot bookmark this content!' => '',
+  'Remove from bookmarks' => 'Xóa khỏi dấu trang',
+  'Save as bookmark' => 'Lưu thành dấu trang',
+  'You cannot bookmark this content!' => 'Bạn không thể đánh dấu nội dung này!',
 );

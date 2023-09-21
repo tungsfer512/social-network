@@ -17,6 +17,6 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
-    'less' => '',
-    'more' => '',
+    'less' => 'ít hơn',
+    'more' => 'nhiều hơn',
 ];

@@ -1,4 +1,4 @@
 <?php
 return array (
-  'Empty <br />Container' => 'Empty <br />Container',
+  'Empty <br />Container' => 'Container <br /> trống',
 );

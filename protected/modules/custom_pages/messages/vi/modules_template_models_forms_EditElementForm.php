@@ -1,4 +1,4 @@
 <?php
 return array (
-  'Use empty content' => 'Use empty content',
+  'Use empty content' => 'Sử dụng nội dung trống',
 );

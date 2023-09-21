@@ -1,6 +1,6 @@
 <?php
 return array (
-  'Description' => 'Miêu tả',
+  'Description' => 'Mô tả',
   'Sort Order' => 'Thứ tự sắp xếp',
   'Title' => 'Tiêu đề',
 );

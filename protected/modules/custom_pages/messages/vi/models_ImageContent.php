@@ -1,4 +1,4 @@
 <?php
 return array (
-  'Empty Image' => 'Ảnh rỗng',
+  'Empty Image' => 'Ảnh trống',
 );

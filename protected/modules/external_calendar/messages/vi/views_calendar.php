@@ -1,10 +1,10 @@
 <?php
 return array (
-  'Add Calendar' => '',
-  'Add external Calendar' => '',
-  'External Calendars' => '',
+  'Add Calendar' => 'Thêm lịch',
+  'Add external Calendar' => 'Thêm lịch ngoài',
+  'External Calendars' => 'Lịch ngoài',
   'Private' => 'Riêng tư',
-  'Public' => 'Công cộng',
-  'Sync Calendar' => '',
-  'Title and Color' => '',
+  'Public' => 'Công khai',
+  'Sync Calendar' => 'Đồng bộ lịch',
+  'Title and Color' => 'Tiêu đề và màu sắc',
 );

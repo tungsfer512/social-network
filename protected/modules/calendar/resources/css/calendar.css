@@ -748,8 +748,8 @@ tbody,
     color: #FFF !important;
 }
 .calendar-entry-participants-filters .btn.btn-info:not(.active) {
-    border: 1px solid #033b95;
-    color: #033b95 !important;
+    border: 1px solid #435F6F;
+    color: #435F6F !important;
     background: #FFF;
 }
 .calendar-entry-participants-filters .btn.btn-info:not(.active):hover {

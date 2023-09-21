@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'Collapse' => 'Thu hẹp',
+    'Collapse' => 'Thu nhỏ',
     'User Interface' => 'Giao diện người dùng',
-    'Read more' => '',
-    'Reset filters' => '',
+    'Read more' => 'Đọc thêm',
+    'Reset filters' => 'Đặt lại bộ lọc',
 ];

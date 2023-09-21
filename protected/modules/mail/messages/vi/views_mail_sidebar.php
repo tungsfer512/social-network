@@ -2,6 +2,6 @@
 return array (
   'Groups' => 'Nhóm',
   'Members' => 'Thành viên',
-  'Spaces' => 'Phòng làm việc',
-  'User Posts' => 'User Posts',
+  'Spaces' => 'Nhóm',
+  'User Posts' => 'Bài viết của người dùng',
 );

@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'Attach Files' => '',
+    'Attach Files' => 'File đính kèm',
 ];

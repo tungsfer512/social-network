@@ -1,6 +1,6 @@
 <?php
 return array (
-  'Allow multiple items?' => 'Allow multiple items?',
-  'Allowed Templates' => 'Allowed Templates',
-  'Render items as inline-blocks within the inline editor?' => 'Render items as inline-blocks within the inline editor?',
+  'Allow multiple items?' => 'Cho phép nhiều mục?',
+  'Allowed Templates' => 'Mẫu được phép',
+  'Render items as inline-blocks within the inline editor?' => 'Hiển thị các mục như là các khối nội tuyến trong trình chỉnh sửa nội tuyến?',
 );

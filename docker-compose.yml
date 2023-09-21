@@ -18,8 +18,8 @@ services:
       MYSQL_DATABASE: caodangytethaibinh_db
       MYSQL_USER: caodangytethaibinh_user
       MYSQL_PASSWORD: caodangytethaibinh_password
-    # volumes:
-    #   - ./db/mysql_data:/var/lib/mysql
+    volumes:
+      - ./db/mysql_data:/var/lib/mysql
     networks:
       caodangytethaibinh: null
   caodangytethaibinh: 

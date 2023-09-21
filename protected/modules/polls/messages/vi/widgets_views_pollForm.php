@@ -2,7 +2,7 @@
 return array (
   'Add answer...' => 'Thêm câu trả lời...',
   'Anonymous Votes?' => 'Cho phép biểu quyết vô danh?',
-  'Description' => 'Miêu tả',
+  'Description' => 'Mô tả',
   'Display answers in random order?' => 'Hiển thị câu trả lời theo thứ tự ngẫu nhiên?',
   'Edit answer (empty answers will be removed)...' => 'Chỉnh sửa câu hỏi (câu hỏi trống sẽ bị xóa bỏ)...',
   'Edit your poll question...' => 'Chỉnh sửa câu hỏi biểu quyết...',

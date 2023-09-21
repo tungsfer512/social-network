@@ -42,14 +42,14 @@ class PoweredBy extends Widget
         }
 
         if ($this->textOnly) {
-            return Yii::t('base', 'ĐƯợc phát triển bởi {name}', ['name' => 'Công ty Cổ phần Công nghệ A.I-Soft (https://aisoft.com.vn)']);
+            return Yii::t('base', 'Được phát triển bởi {name}', ['name' => 'Công ty Cổ phần Công nghệ A.I-Soft (https://aisoft.com.vn)']);
         }
 
         if (!isset($this->linkOptions['target'])) {
             $this->linkOptions['target'] = '_blank';
         }
 
-        return Yii::t('base', 'ĐƯợc phát triển bởi {name}', [
+        return Yii::t('base', 'Được phát triển bởi {name}', [
             'name' => Html::a('Công ty Cổ phần Công nghệ A.I-Soft', 'https://aisoft.com.vn', $this->linkOptions)
         ]);
     }

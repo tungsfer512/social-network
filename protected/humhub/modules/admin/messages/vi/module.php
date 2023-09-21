@@ -1,4 +1,4 @@
 <?php
 return array (
-  'Installed' => 'Đã cài đặt',
+  'Installed' => 'Đã thiết lập',
 );

@@ -17,6 +17,6 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
-    'Allows user to like content' => '',
-    'Can like' => '',
+    'Allows user to like content' => 'Cho phép người dùng thích nội dung',
+    'Can like' => 'Có thể thích',
 ];

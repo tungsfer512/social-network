@@ -43,25 +43,25 @@ class ModuleControls extends Menu
     {
         $this->initInstalledModuleControls();
 
-        if ($marketplaceUrl = $this->getMarketplaceUrl($this->module)) {
-            $this->addEntry(new MenuLink([
-                'id' => 'marketplace-info',
-                'label' => Yii::t('AdminModule.base', 'Information'),
-                'url' => $marketplaceUrl,
-                'htmlOptions' => ['rel' => 'noopener', 'target' => '_blank'],
-                'icon' => 'external-link',
-                'sortOrder' => 500,
-            ]));
-        } else {
-            $this->addEntry(new MenuLink([
-                'id' => 'info',
-                'label' => Yii::t('AdminModule.base', 'Information'),
-                'url' => ['/admin/module/info', 'moduleId' => $this->module->id],
-                'htmlOptions' => ['data-target' => '#globalModal'],
-                'icon' => 'info-circle',
-                'sortOrder' => 600,
-            ]));
-        }
+        // if ($marketplaceUrl = $this->getMarketplaceUrl($this->module)) {
+        //     $this->addEntry(new MenuLink([
+        //         'id' => 'marketplace-info',
+        //         'label' => Yii::t('AdminModule.base', 'Information'),
+        //         'url' => $marketplaceUrl,
+        //         'htmlOptions' => ['rel' => 'noopener', 'target' => '_blank'],
+        //         'icon' => 'external-link',
+        //         'sortOrder' => 500,
+        //     ]));
+        // } else {
+        //     $this->addEntry(new MenuLink([
+        //         'id' => 'info',
+        //         'label' => Yii::t('AdminModule.base', 'Information'),
+        //         'url' => ['/admin/module/info', 'moduleId' => $this->module->id],
+        //         'htmlOptions' => ['data-target' => '#globalModal'],
+        //         'icon' => 'info-circle',
+        //         'sortOrder' => 600,
+        //     ]));
+        // }
     }
 
     private function initInstalledModuleControls()

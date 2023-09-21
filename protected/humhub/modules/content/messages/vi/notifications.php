@@ -10,5 +10,5 @@ return [
     '{originator} just wrote {contentInfo} in space {space}' => '{originator} vừa mới viết {contentInfo} trong nhóm {space}',
     '{originator} notifies you about {contentInfo}' => '{originator} thông báo tới bạn về {contentInfo}',
     '{originator} notifies you about {contentInfo} in {space}' => '{originator} thông báo tới bạn về {contentInfo} trong nhóm {space}',
-    'Your {contentTitle} has been deleted by {displayName} for \'{reason}\'' => '',
+    'Your {contentTitle} has been deleted by {displayName} for \'{reason}\'' => 'Nội dung {contentTitle} của bạn đã bị {displayName} xóa vì \'{reason}\'',
 ];

@@ -12,6 +12,10 @@ use yii\helpers\Html;
                  alt="<?= Yii::t('base', 'Logo of {appName}', ['appName' => Html::encode(Yii::$app->name)]) ?>"
                  id="img-logo"/>
         </a>
+        <a class="navbar-brand navbar-brand-text"
+           href="<?= Yii::$app->homeUrl; ?>" id="text-logo">
+            <?= Html::encode(Yii::$app->name); ?>
+        </a>
     <?php else: ?>
         <a class="navbar-brand navbar-brand-text"
            href="<?= Yii::$app->homeUrl; ?>" id="text-logo">

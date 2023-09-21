@@ -7,7 +7,7 @@ return [
     'Sorting' => 'Sắp xếp',
     'Topic' => 'Chủ đề',
     'Visibility' => 'Hiển thị',
-    'Date from' => '',
-    'Date to' => '',
-    'Scope' => '',
+    'Date from' => 'Từ ngày',
+    'Date to' => 'Đến ngày',
+    'Scope' => 'Phạm vi',
 ];

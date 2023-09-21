@@ -13,5 +13,5 @@ return [
     'Topic' => 'Chủ đề',
     'Topic has been deleted!' => 'Chủ đề đã xóa!',
     'Topics' => 'Chủ đề',
-    'Add topics that you will use in your posts. Topics can be personal interests or general terms. When posting, you can select them by choosing "Topics" and it will be easier for other users to find your posts related to that topic.' => '',
+    'Add topics that you will use in your posts. Topics can be personal interests or general terms. When posting, you can select them by choosing "Topics" and it will be easier for other users to find your posts related to that topic.' => 'Thêm chủ đề mà bạn sẽ sử dụng trong bài viết của mình. Chủ đề có thể là sở thích cá nhân hoặc thuật ngữ chung. Khi đăng bài, bạn có thể chọn chúng bằng cách chọn "Chủ đề" và sẽ dễ dàng hơn cho người dùng khác để tìm bài viết của bạn liên quan đến chủ đề đó.',
 ];

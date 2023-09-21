@@ -18,9 +18,9 @@
  */
 return [
     'Receive Notifications of Space Membership events.' => 'Nhận các thông báo về hoạt động của thành viên trên nhóm.',
-    'Space Membership' => 'Quyền thành viên Nhóm',
+    'Space Membership' => 'Quyền thành viên nhóm',
     'View Online' => 'Xem online',
-    'You were added to Space {spaceName}' => 'Bạn được thêm vào Nhóm {spaceName}',
+    'You were added to Space {spaceName}' => 'Bạn được thêm vào nhóm {spaceName}',
     '{displayName} accepted your invite for the space {spaceName}' => '{displayName} chấp nhận lời mời tham gia nhóm {spaceName} của bạn',
     '{displayName} approved your membership for the space {spaceName}' => '{displayName} đã duyệt quyền tham gia nhóm {spaceName} của bạn',
     '{displayName} declined your invite for the space {spaceName}' => '{displayName} từ chối lời mời tham gia nhóm{spaceName} của bạn',
@@ -28,5 +28,5 @@ return [
     '{displayName} invited you to the space {spaceName}' => '{displayName} đã mời bạn tham gia nhóm {spaceName}',
     '{displayName} requests membership for the space {spaceName}' => '{displayName} yêu cầu tham gia nhóm {spaceName}',
     '{displayName} revoked your invitation for the space {spaceName}' => '{displayName} đã thu hồi lại lời mời bạn tham gia nhóm {spaceName}',
-    '{displayName} changed your role to {roleName} in the space {spaceName}.' => '',
+    '{displayName} changed your role to {roleName} in the space {spaceName}.' => '{displayName} đã thay đổi quyền của bạn thành {roleName} trong nhóm {spaceName}.',
 ];

@@ -17,9 +17,9 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
-    'Edit Template' => '',
-    'Edit elements' => '',
-    'Edit template' => '',
-    'Page configuration' => '',
-    'Turn edit off' => '',
+    'Edit Template' => 'Chỉnh sửa mẫu',
+    'Edit elements' => 'Chỉnh sửa các phần tử',
+    'Edit template' => 'Chỉnh sửa mẫu',
+    'Page configuration' => 'Cấu hình trang',
+    'Turn edit off' => 'Tắt chế độ chỉnh sửa',
 ];

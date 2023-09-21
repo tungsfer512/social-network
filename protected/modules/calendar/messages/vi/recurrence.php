@@ -30,5 +30,5 @@ return [
     'on weekdays' => 'vào các ngày trong tuần',
     'second' => 'Thứ hai',
     'third' => 'Thứ ba',
-    'last' => '',
+    'last' => 'cuối',
 ];

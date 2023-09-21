@@ -9,6 +9,6 @@ return array (
   'Search only in certain spaces:' => 'Tìm kiếm trong nhóm cụ thể:',
   'Spaces' => 'Nhóm',
   'Specify space' => 'Chỉ định nhóm',
-  'Users' => 'Users',
+  'Users' => 'Người dùng',
   'Your search returned no matches.' => 'Không có kết quả tìm kiếm phù hợp',
 );

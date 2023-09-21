@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'Empty Richtext' => 'Empty Richtext',
-    'Empty Text' => 'Empty Text',
-    'Empty HumHub Richtext' => '',
+    'Empty Richtext' => 'Richtext Trống',
+    'Empty Text' => 'Văn bản trống',
+    'Empty HumHub Richtext' => 'Richtext trống',
 ];

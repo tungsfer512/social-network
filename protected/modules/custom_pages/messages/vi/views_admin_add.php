@@ -1,7 +1,7 @@
 <?php
 return array (
-  'Add new {pageType}' => '',
-  'Create new template' => '',
-  'Edit template' => '',
-  'Settings' => 'Cài đặt',
+  'Add new {pageType}' => 'Thêm mới {pageType}',
+  'Create new template' => 'Tạo mẫu mới',
+  'Edit template' => 'Chỉnh sửa mẫu',
+  'Settings' => 'Thiết lập',
 );

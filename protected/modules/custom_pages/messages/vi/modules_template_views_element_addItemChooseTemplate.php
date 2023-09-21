@@ -1,5 +1,5 @@
 <?php
 return array (
-  'Choose a template' => 'Choose a template',
-  'Template' => 'Template',
+  'Choose a template' => 'Chọn một mẫu',
+  'Template' => 'Mẫu',
 );

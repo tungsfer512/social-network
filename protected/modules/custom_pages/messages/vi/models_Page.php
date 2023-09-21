@@ -7,6 +7,6 @@ return [
     'Url shortcut' => 'Lối tắt URL',
     'View' => 'Xem',
     'page' => 'trang',
-    'Abstract' => '',
-    'Page' => '',
+    'Abstract' => 'Tóm tắt',
+    'Page' => 'Trang',
 ];
