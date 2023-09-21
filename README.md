@@ -77,7 +77,7 @@ docker compose down
 - PHP >= 7.4
 - MySQL >= 5.7
 - Composer
-- Các môi trường Linux cần thiết (được đề cập ở phần [3.2.2](###322-cai-dat) )
+- Các môi trường Linux cần thiết (được đề cập ở phần [3.2.2.1](#3221-cài-đặt-các-gói-thư-viện-môi-trường-cần-thiết) )
 
 #### 3.2.2. Cài đặt
 
