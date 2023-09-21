@@ -19,7 +19,7 @@
 ## 2. Clone project
 
 ```bash
-git clone ...
+git clone https://github.com/tungsfer512/social-network.git
 ```
 
 ## 3. Triển khai
