@@ -8,5 +8,5 @@ return [
     '{displayName} just updated event {contentTitle}.' => '{displayName} vừa mới cập nhật sự kiện {contentTitle}.',
     '{displayName} reopened event "{contentTitle}" in space {spaceName}.' => '{displayName} đã mở lại sự kiện "{contentTitle}" trong diễn đàn {spaceName}.',
     '{displayName} reopened event "{contentTitle}".' => '{displayName} đã mở lại sự kiện "{contentTitle}".',
-    '{displayName} just invited you to event "{contentTitle}".' => '{displayName} vừa mới mời bạn tham gia sự kiện "{contentTitle}".',
+    '{displayName} just invited you to event "{contentTitle}".' => '',
 ];

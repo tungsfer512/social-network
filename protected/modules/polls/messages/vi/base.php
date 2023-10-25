@@ -7,7 +7,7 @@ return [
     'Cancel' => 'Hủy',
     'Polls' => 'Biểu quyết',
     'Save' => 'Lưu',
-    'Allows the user to create polls' => 'Cho phép người dùng tạo biểu quyết',
-    'Create poll' => 'Tạo biểu quyết',
-    '{n,plural,=1{# {htmlTagBegin}vote{htmlTagEnd}}other{# {htmlTagBegin}votes{htmlTagEnd}}}' => '{n,plural,=1{# {htmlTagBegin}vote{htmlTagEnd}}other{# {htmlTagBegin}votes{htmlTagEnd}}}',
+    'Allows the user to create polls' => '',
+    'Create poll' => '',
+    '{n,plural,=1{# {htmlTagBegin}vote{htmlTagEnd}}other{# {htmlTagBegin}votes{htmlTagEnd}}}' => '',
 ];

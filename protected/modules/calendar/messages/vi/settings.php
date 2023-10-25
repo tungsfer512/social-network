@@ -1,7 +1,7 @@
 <?php
 return array (
   'Basic' => 'Cơ bản',
-  'Full calendar' => 'Lịch đầy đủ',
+  'Full calendar' => '',
   'Participation' => 'Tham gia',
   'Reminder' => 'Nhắc nhở',
 );

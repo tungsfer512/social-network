@@ -17,5 +17,5 @@ return [
     'You have an <strong>{type}</strong> coming up' => 'Bạn có một <strong>{type}</strong> sắp diễn ra',
     'You have an <strong>{type}</strong> coming up: {title}' => 'Bạn có một <strong>{type}</strong> sắp diễn ra: {title}',
     'Your reminder settings for event: <strong>\'{title}\'</strong>' => 'Cấu hình nhắc nhở cho sự kiện của bạn: <strong>\'{title}\'</strong>',
-    'Minute' => 'Phút',
+    'Minute' => '',
 ];
