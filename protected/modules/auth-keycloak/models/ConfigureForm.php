@@ -154,7 +154,8 @@ class ConfigureForm extends Model
         $this->apiPassword = $settings->get('apiPassword', $this->apiPassword);
         $this->groupsSyncMode = $settings->get('groupsSyncMode', $this->groupsSyncMode);
 
-        $this->redirectUri = Url::to(['/user/auth/external', 'authclient' => Keycloak::DEFAULT_NAME], true);
+        // $this->redirectUri = Url::to(['/user/auth/external', 'authclient' => Keycloak::DEFAULT_NAME], true);
+        $this->redirectUri = 'https://mxh-cdyttb.aisenote.com/index.php?r=user%2Fauth%2Fexternal&authclient=Keycloak';
     }
 
     /**

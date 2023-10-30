@@ -15,9 +15,9 @@ services:
       - '3317:3306'
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: caodangytethaibinh_db
-      MYSQL_USER: caodangytethaibinh_user
-      MYSQL_PASSWORD: caodangytethaibinh_password
+      MYSQL_DATABASE: cdyttb_db
+      MYSQL_USER: cdyttb_user
+      MYSQL_PASSWORD: cdyttb_password
     volumes:
       - ./db/mysql_data:/var/lib/mysql
     networks:
@@ -30,6 +30,7 @@ services:
     restart: unless-stopped
     ports:
       - '8017:80'
+      - '8006:3306'
     volumes:
       - .:/var/www/html
     networks:

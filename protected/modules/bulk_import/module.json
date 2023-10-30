@@ -1,0 +1,13 @@
+{
+    "id": "bulk_import",
+    "name": "Import Người Dùng",
+    "description": "Import người dùng và nhóm tham gia bằng file CSV",
+    "keywords": [
+        "users", "spaces"
+    ],
+    "version": "1.0",
+    "humhub": {
+        "minVersion": "0.8"
+    },
+    "screenshots": ["assets/screen1.jpg","assets/screen2.jpg"]
+}

@@ -1,6 +1,14 @@
 Changelog
 =========
 
+1.5.4 - (October 5, 2023)
+-------------------------
+- Enh #424: Tests for `next` version
+- Enh #423: Add Create Button
+- Fix #419: Don't use loader for wall entry menu on open modal window 
+- Enh #379: Allow managing of global event types from container side
+- Enh #382: Allow inviting by users who can manage a calendar entry
+
 1.5.3 (September 14, 2023)
 --------------------------
 - Enh #415: Fix recurring event visibility on stream

@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'humhub/humhub-calendar',
-        'pretty_version' => 'v1.5.3',
-        'version' => '1.5.3.0',
-        'reference' => '725c11dda06ead2d6f56d65d79d5d18eef33ad5f',
+        'pretty_version' => 'v1.5.4',
+        'version' => '1.5.4.0',
+        'reference' => 'd3c7cb387dd540fb9541dba7311a992b80b3c968',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,16 +22,16 @@
         'doctrine/deprecations' => array(
             'pretty_version' => '1.1.x-dev',
             'version' => '1.1.9999999.9999999-dev',
-            'reference' => 'bdaa697ed9c7f5ee2f7d3b5f9c2a6f2519523cd9',
+            'reference' => '4f2d4f2836e7ec4e7a8625e75c6aa916004db931',
             'type' => 'library',
             'install_path' => __DIR__ . '/../doctrine/deprecations',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'humhub/humhub-calendar' => array(
-            'pretty_version' => 'v1.5.3',
-            'version' => '1.5.3.0',
-            'reference' => '725c11dda06ead2d6f56d65d79d5d18eef33ad5f',
+            'pretty_version' => 'v1.5.4',
+            'version' => '1.5.4.0',
+            'reference' => 'd3c7cb387dd540fb9541dba7311a992b80b3c968',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
